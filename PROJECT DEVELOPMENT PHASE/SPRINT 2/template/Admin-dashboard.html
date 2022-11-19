@@ -1,12 +1,4 @@
-<!-- ==================================
-* Date          : 06-11-2022
-* Team ID       : PNT2022TMID22548
-* Project name  : Customer care registry (ServiceHub)
-* Css name      : Admin-dashboard  CSS
-* File name     : Admin-dashboard  HTML  Template
-* File size     : 13kb
-* Total lines   : 398
-====================================  -->
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -47,7 +39,7 @@
 				</span>
 				<!-- Logo Name -->
 				<h1 class="logo-title">
-                    ServiceHub
+                   KX-SERVICES
 				</h1>
 			</div>
 		</div>
@@ -68,7 +60,7 @@
 		<!-- Admin profile section -->
 		<div class="app-header-actions">
 			<button class="user-profile">
-				<span>Tharaneshwaran</span>
+				<span>SIVAKARAN</span>
 				<span>
 					<img src="{{ url_for('static', filename='assets/img/avatars/7.png')}}" />
 				</span>
@@ -114,9 +106,9 @@
 
 			<!-- Start Copyrigth section -->
 			<footer class="footer">
-				<h1>ServiceHub<small>©</small></h1>
+				<h1>KX-SERVICES<small>©</small></h1>
 				<div>
-					ServiceHub ©<br />
+					KX-SERVICES ©<br />
 					All Rights Reserved 2022
 				</div>
 			</footer>
@@ -153,7 +145,7 @@
 						<div class="tile-header">
 							<i class="fa fa-users" aria-hidden="true"></i>
 							<h3>
-								<span>Kaarthiik</span>
+								<span>Rajadurai</span>
 								<span>AG12734</span>
 							</h3>
 						</div>
@@ -168,7 +160,7 @@
 						<div class="tile-header">
 							<i class="fa fa-users" aria-hidden="true"></i>
 							<h3>
-								<span>Jayachandran</span>
+								<span>Sivakaran</span>
 								<span>AG12736</span>
 							</h3>
 						</div>
@@ -183,7 +175,7 @@
 						<div class="tile-header">
 							<i class="fa fa-users" aria-hidden="true"></i>
 							<h3>
-								<span>Soundharyan</span>
+								<span>Sinraj</span>
 								<span>AG12735</span>
 							</h3>
 						</div>
@@ -196,7 +188,10 @@
 					</article>
 				</div>
 				<!-- End Queries card -->
-
+				<!-- declaimer -->
+				<div class="service-section-footer">
+					<p>Services are providing according to the current Query of the Customer.</p>
+				</div>
 			</section>
 			<!-- End main content -->
 
@@ -229,7 +224,6 @@
                     </dl>
 				</div>
 				<!-- Start User details with queries -->
-				{% for row in users %}
 				<div class="transfers">
 					<div class="transfer">
 						<div class="transfer-logo">
@@ -237,18 +231,18 @@
 						</div>
 						<dl class="transfer-details">
 							<div>
-								<dt>{{row["USERSNAME"]}}</dt>
-                                <dd>{{row['USERSID']}}</dd>
+								<dt>Vampire</dt>
+                                <dd>UID12736</dd>
 							</div>
 							<div>
-								<dd>{{row["USERSEMAIL"]}}</dd>
+								<dd>chip@sbwire.com</dd>
 							</div>
 							<div>
-								<dd>{{row['TOPIC']}}</dd>
+								<dd>Kindly solve this problem...</dd>
 							</div>
 						</dl>
 						<div class="transfer-number">
-							{{row["DATE"]}}
+							10/07/2022
 						</div>
 					</div>
 					<div class="transfers">
@@ -258,18 +252,18 @@
                             </div>
                             <dl class="transfer-details">
                                 <div>
-                                    <dt>{{row["USERSNAME"]}}</dt>
-                                    <dd>{{row['USERSID']}}</dd>
+                                    <dt>Itachi</dt>
+                                    <dd>UID12718</dd>
                                 </div>
                                 <div>
-                                    <dd>{{row["USERSEMAIL"]}}</dd>
+                                    <dd>gk@thetimes.co.uk</dd>
                                 </div>
                                 <div>
-                                    <dd>{{row['TOPIC']}}</dd>
+                                    <dd>I am Facing trouble in...</dd>
                                 </div>
                             </dl>
                             <div class="transfer-number">
-                                {{row["DATE"]}}
+                                10/07/2022
                             </div>
                         </div>
                         <div class="transfers">
@@ -279,18 +273,18 @@
                                 </div>
                                 <dl class="transfer-details">
                                     <div>
-                                        <dt>{{row["USERSNAME"]}}</dt>
-                                        <dd>{{row['USERSID']}}</dd>
+                                        <dt>Sinraj</dt>
+                                        <dd>UID12817</dd>
                                     </div>
                                     <div>
-                                        <dd>{{row["USERSEMAIL"]}}</dd>
+                                        <dd>soundy6@163.com</dd>
                                     </div>
                                     <div>
-                                        <dd>{{row['TOPIC']}}</dd>
+                                        <dd>I don't know how to...</dd>
                                     </div>
                                 </dl>
                                 <div class="transfer-number">
-                                    {{row["DATE"]}}
+                                    10/07/2022
                                 </div>
                             </div>
                             <div class="transfers">
@@ -300,23 +294,22 @@
                                     </div>
                                     <dl class="transfer-details">
                                         <div>
-                                            <dt>{{row["USERSNAME"]}}</dt>
-                                            <dd>{{row['USERSID']}}</dd>
+                                            <dt>tharan</dt>
+                                            <dd>UID12836</dd>
                                         </div>
                                         <div>
-                                            <dd>{{row["USERSEMAIL"]}}</dd>
+                                            <dd>tharan@ifeng.com</dd>
                                         </div>
                                         <div>
                                             
-                                            <dd>{{row['TOPIC']}}</dd>
+                                            <dd>Please help me to...</dd>
                                         </div>
                                     </dl>
                                     <div class="transfer-number">
-                                        {{row["DATE"]}}
+                                        10/07/2022
                                     </div>
                                 </div>
 				</div>
-				{% endfor %}
 			</section>
 		</div>
 			<!-- End User details with queries -->

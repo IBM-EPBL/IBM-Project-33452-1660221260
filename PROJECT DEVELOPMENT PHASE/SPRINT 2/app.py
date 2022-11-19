@@ -23,7 +23,7 @@ from init import hello
 
 # coneecting to database
 conn = ibm_db.connect(
-    "DATABASE=bludb;HOSTNAME=764264db-9824-4b7c-82df-40d1b13897c2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=32536;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=ljm77406;PWD=cUC3wPnOiUyNDEzj", '', '')
+    "DATABASE=bludb;HOSTNAME=3883e7e4-18f5-4afe-be8c-fa31c41761d2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31498;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=wqf68667;PWD=i8rNrSxSu183vv0e", '', '')
 print(conn)
 print("connection successful...")
 

@@ -1,12 +1,4 @@
-<!-- ==================================
-* Date          : 08-11-2022
-* Team ID       : PNT2022TMID22548
-* Project name  : Customer care registry (ServiceHub)
-* Css name      : Issue-form
-* File name     : Issue-form  HTML  Template
-* File size     : 3kb
-* Total lines   : 83
-====================================  -->
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
    <head>
@@ -44,40 +36,34 @@
                      </p>
                   </div>
                   <div class="col-xl-5 offset-xl-1 col-md-12 col-sm-12">
-                     <form action="{{ url_for('issuse') }}" method="POST">
+                     <form>
                         <div class="row">
                            <div class="col-md-12">
                               <div class="md-form form-group">
-                                 <input type="text" class="form-control" placeholder="User Name" required>
+                                 <input type="text" class="form-control" placeholder="User Name">
                               </div>
                            </div>
                         </div>
                         <div class="row">
                            <div class="col-md-12">
                               <div class="md-form form-group">
-                                 <input for="exampleInputname" type="text" class="form-control" placeholder="User ID" value="{{msg}}" required>
+                                 <input type="text" class="form-control" placeholder="User ID">
                               </div>
                            </div>
                         </div>
                         <div class="row">
                            <div class="col-md-12">
                               <div class="md-form form-group">
-                                 <input type="email" class="form-control" placeholder="User Email" required>
+                                 <input type="email" class="form-control" placeholder="User Email">
                               </div>
                            </div>
                         <div class="row">
                            <div class="col-md-12">
                               <div class="md-form form-group">
-                                 <textarea rows="10" cols="50" class="form-control" placeholder="Your Issue" required></textarea>
+                                 <textarea rows="10" cols="50" class="form-control" placeholder="Your Issue"></textarea>
                               </div>
                            </div>
                         </div>
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="md-form form-group">
-                                 <input type="email" class="form-control" placeholder="Date" required>
-                              </div>
-                           </div>
                         <button type="submit" class="btn btn-primary btn-md">Send</button>
                      </form>
                   </div>

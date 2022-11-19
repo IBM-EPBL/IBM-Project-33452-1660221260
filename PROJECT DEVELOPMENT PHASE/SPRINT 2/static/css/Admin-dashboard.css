@@ -1,31 +1,4 @@
-/*==================================
-* Date          : 06-11-2022
-* Team ID       : PNT2022TMID22548
-* Project name  : Customer care registry (ServiceHub)
-* Template name : Admin-dashboard  HTML Template
-* File name     : Admin-dashboard  CSS  Template
-* File size     : 19kb
-* Total lines   : 987
-==================================== */
 
-/*==================================
-font-family: 'IBM Plex Sans', sans-serif;
-==================================== */
-
-/*=========== TABLE OF CONTENTS ===========
-1. General css (Reset code)
-2. Top menu
-3. Copyrigth section
-4. Side bar
-5. Main content
-6. User content
-7. Question section
-7. Circular progress bar
-==========================================*/
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 
 /* fonts-family */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;700&family=Raleway&display=swap');

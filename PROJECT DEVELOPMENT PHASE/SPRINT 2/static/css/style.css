@@ -1,42 +1,4 @@
-/*==================================
-* Date          : 06-11-2022
-* Team ID       : PNT2022TMID22548
-* Project name  : Customer care registry (ServiceHub)
-* Template Name : Home  HTML Template
-* File name     : Admin-dashboard  CSS  Template
-* File size     : 13kb
-* Total lines   : 538
-==================================== */
 
-/*==================================
-font-family: 'IBM Plex Sans', sans-serif;
-color used :
---c-gray-900: #000000;
-  --c-gray-800: #1f1f1f;
-  --c-gray-700: #2e2e2e;
-  --c-gray-600: #313131;
-  --c-gray-500: #969593;
-  --c-gray-400: #a6a6a6;
-  --c-gray-300: #bdbbb7;
-  --c-gray-200: #f1f1f1;
-  --c-gray-100: #ffffff;
-  --c-brown-500: #4E3E27;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Top-area
-3.  Welcome-hero  
-4.  Testimonials
-5.  Clients
-6.  News-letter
-7.  Footer
-==========================================*/
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;700&family=Raleway&display=swap');
 *{
     padding: 0;
